@@ -16,3 +16,17 @@ const createCandy = (candy) => {
     candy,
   };
 };
+
+const deleteCandy = (candy) => {
+  return {
+    type: DELETE_CANDY,
+    candy,
+  };
+};
+
+const updateCandy = (candy) => {
+  return {
+    type: UPDATE_CANDY,
+    candy,
+  };
+};
